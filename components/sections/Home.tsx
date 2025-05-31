@@ -23,7 +23,7 @@ export default function HomePage() {
             initial={{ opacity: 0, x: -100 }}
             whileInView={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -100 }}
-            transition={{ duration: 0.5 }}
+            transition={{ duration: 0.5 , delay: 0.2 }}
           >
             <div className="flex flex-col justify-center space-y-4">
               <div className="space-y-2">
@@ -68,20 +68,11 @@ export default function HomePage() {
               </div>
             </div>
           </motion.div>
-          {/* <motion.div
-            initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }}
-            exit={{ opacity: 0, x: -100 }}
-            transition={{
-              duration: 0.4,
-              scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
-            }}
-          > */}
           <motion.div
             initial={{ opacity: 0, scale: 0.5 }}
             whileInView={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 200, scale: 0.5 }}
-            transition={{ duration: 0.5 }}
+            transition={{ duration: 0.5,delay: 0.2 }}
             className="origin-center"
           >
             <div className="flex items-center justify-center">

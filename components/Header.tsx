@@ -44,7 +44,7 @@ export default function Header() {
           className="fixed top-0 w-full px-4 lg:px-6 h-14 flex items-center justify-center "
           initial={{ top: -100 }}
           animate={{ top: 0 }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 0.5 , delay: 0.2 }}
         >
 
           <Link href="#" className="flex items-center cursor-pointer justify-center"

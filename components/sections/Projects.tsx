@@ -69,7 +69,7 @@ export default function Projects() {
               tags={["React", "Next.js", "Tailwind", "Shadcn-UI", "Framer Motion", "Zod", "React Hook Form"]}
               imageUrl={3}
               demoUrl="#"
-              githubUrl="#"
+              githubUrl="https://github.com/GabrielCodamo/Portfolio"
             />
           </motion.div>
         </div>
