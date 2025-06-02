@@ -1,7 +1,7 @@
 "use client"
 import * as motion from "motion/react-client"
 
-import imagemportifolio from "/assets/1.png"
+import imagemportifolio from "/assets/Perfil.png"
 
 import Image from "next/image";
 import Link from "next/link";
@@ -15,9 +15,8 @@ import { CiMail } from "react-icons/ci";
 
 export default function HomePage() {
   return (
-    <section className=" flex justify-center pt-46 pb-37 w-full ">
-      
-        <div className="grid grid-cols-[1fr_300px] gap-8">
+    <section className=" flex justify-center pt-47 pb-35 w-full ">
+        <div className="grid grid-cols-[1fr_300px] gap-20">
           <motion.div
             className="w-full grid lg:max-w-[683px] "
             initial={{ opacity: 0, x: -100 }}
