@@ -28,7 +28,7 @@ export default function About() {
         </div>
       </div>
       <div className="flex w-full justify-center space-x-8 items-end ">
-         <motion.div className=""
+        <motion.div className=""
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: 100 }}
@@ -40,15 +40,15 @@ export default function About() {
         <div className="flex flex-col items-center justify-end w-[600px] space-y-4 mt-10">
           <motion.p
             className="font-[500]  w-155 text-lg text-shadow-amber-950 text-shadow-lg/30"
-           initial={{ opacity: 0, x: -100 }}
+            initial={{ opacity: 0, x: -100 }}
             whileInView={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -100 }}
             transition={{ duration: 0.5 }}>
-            Olá me chamo Gabriel sou um estudante que está começando como desenvolvedor Web sem experiência criando mini projetos pessoais. Gosto de desenvolver aplicações além de estar por dentro das tecnologias e apredendo novas funcionalidades.
+            Sou um estudante que está começando como desenvolvedor Web, ainda sem experiência na área como desenvolvedor jr apenas criando mini projetos pessoais. Gosto de desenvolver aplicações além de estar por dentro das tecnologias e apredendo novas funcionalidades.
           </motion.p>
           <div className="grid grid-cols-3 gap-4">
             <motion.div
-             initial={{ opacity: 0, x: 100 }}
+              initial={{ opacity: 0, x: 100 }}
               whileInView={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: 100 }}
               transition={{ duration: 0.20, delay: 3 * 0.1 }}>
@@ -70,7 +70,7 @@ export default function About() {
               </Card>
             </motion.div>
             <motion.div
-             initial={{ opacity: 0, x: 100 }}
+              initial={{ opacity: 0, x: 100 }}
               whileInView={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: 100 }}
               transition={{ duration: 0.20, delay: 5 * 0.1 }}>

@@ -10,16 +10,14 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen bg-gradient-to-r from-amber-950 via-orange-500 to-amber-950">
-      <Header />
-      <div className="flex-1">
+    <div className="flex w-full flex-col  bg-gradient-to-r from-amber-950 via-orange-500 to-amber-950 overflow-x-hidden ">
+        <Header />
         <SectionHome />
         <SectionAbout />
         <SectionSkills />
         <SectionProjects/>
         <SectionContact/>
-      </div>
-      <Footer />
+        <Footer />
     </div>
   );
 }

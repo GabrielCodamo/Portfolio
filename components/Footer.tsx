@@ -5,7 +5,7 @@ import { SlSocialLinkedin } from "react-icons/sl";
 
 export default function Footer() {
   return (
-    <footer className="flex justify-center flex-col gap-2 sm:flex-row py-4 w-full shrink-0 items-center px-4 md:px-6 bg-zinc-800">
+    <footer className="flex justify-center ww-full flex-col gap-2 sm:flex-row py-4 shrink-0 items-center px-4 md:px-6 bg-zinc-800">
       <div className="flex w-full items-center">
         <div className="flex justify-center ml-20 w-full">
           <p className="text-sm text-[#f9f9f9] dark:text-[#f9f9f9]">

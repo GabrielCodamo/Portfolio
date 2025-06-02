@@ -58,7 +58,7 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className="w-full pt-15 pb-10">
+    <section id="contact" className=" flex justify-center w-full pt-15 pb-10">
       <div className="flex flex-col justify-center px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">

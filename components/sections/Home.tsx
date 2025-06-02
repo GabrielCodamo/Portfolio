@@ -1,7 +1,7 @@
 "use client"
 import * as motion from "motion/react-client"
 
-import imagemportifolio from "/assets/Teste.jpg"
+import imagemportifolio from "/assets/1.png"
 
 import Image from "next/image";
 import Link from "next/link";
@@ -15,9 +15,9 @@ import { CiMail } from "react-icons/ci";
 
 export default function HomePage() {
   return (
-    <section className="w-full pt-43.5 pb-37">
-      <div className="container px-12 ">
-        <div className="grid lg:grid-cols-[1fr_400px] xl:grid-cols-[full] ">
+    <section className=" flex justify-center pt-46 pb-37 w-full ">
+      
+        <div className="grid grid-cols-[1fr_300px] gap-8">
           <motion.div
             className="w-full grid lg:max-w-[683px] "
             initial={{ opacity: 0, x: -100 }}
@@ -31,7 +31,7 @@ export default function HomePage() {
                   Olá, Sou o <span className="text-[#f9f9f9] text-shadow-amber-950 text-shadow-lg/30">Gabriel de Paula</span>
                 </h1>
                 <p className="text-[#f9f9f9] text-lg font-bold max-w-135 mt-3 ml-2 " >
-                  Sou um desenvolvedor web apaixonado por desenvolvedor interfaces intuitivas e visualmente atraentes. Gosto de criar minhas aplicações usando as tecnologias HTML, CSS e JavaScript usando o Next.js.
+                  Sou um desenvolvedor web apaixonado por criar interfaces intuitivas e visualmente atraentes. Gosto de desenvolver minhas aplicações usando as tecnologias HTML, CSS e JavaScript utilizando o Next.js.
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -79,13 +79,12 @@ export default function HomePage() {
               <Image
                 src={imagemportifolio}
                 alt="Profile"
-                className="w-77 rounded-full border border-zinc-800 bg-[#F54900] shadow-xl/30"
+                className="inset-shadow-[#f9f9f9] bg-[#f9f9f9b0] inset-shadow-sm shadow-xl/30 shadow-[#f9f9f9] rounded-full w-75 h-75 "
                 priority
               />
             </div>
           </motion.div>
         </div>
-      </div>
     </section >
   )
 
