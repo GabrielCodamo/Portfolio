@@ -5,6 +5,7 @@ import Link from "next/link";
 import { motion } from 'framer-motion'
 
 import { useState } from "react"
+import Dropdown from "@/components/Dropdown";
 
 interface NavItem {
   title: string
@@ -38,20 +39,22 @@ const navItems: NavItem[] = [
 export default function Header() {
   const [activeItem, setActiveItem] = useState<string>("Home")
   return (
-    <div className="fixed w-full">
-      <header className=" px-4 lg:px-6 h-14 flex items-center justify-center  bg-zinc-800">
+    <div className="fixed w-full  ">
+      <header className=" px-4 lg:px-6 h-14 flex items-center justify-center bg-zinc-800 ">
         <motion.header
           className="fixed top-0 w-full px-4 lg:px-6 h-14 flex items-center justify-center "
           initial={{ top: -100 }}
           animate={{ top: 0 }}
-          transition={{ duration: 0.5 , delay: 0.2 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
         >
-
-          <Link href="#" className="flex items-center cursor-pointer justify-center"
-          >
-            <span className="font-bold text-xl text-orange-500">Gabriel</span>
-          </Link>
-          <nav className="ml-auto h-full flex gap-4 sm:gap-6 items-center justify-center border-orange-500">
+          <div className="w-full flex justify-between">
+            <Link href="#" className="flex items-center cursor-pointer justify-center"
+            >
+              <span className="font-bold text-xl text-orange-500">Gabriel</span>
+            </Link>
+            <Dropdown />
+          </div>
+          <nav className="ml-auto h-full hidden sm:flex gap-4 sm:gap-6 items-center justify-center border-orange-500">
             <div className="flex flex-1 items-center justify-end space-x-2 md:justify-center md:space-x-4">
               {navItems.map((item) => (
                 <Link className={cn(

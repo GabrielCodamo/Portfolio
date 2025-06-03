@@ -10,7 +10,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div className="flex w-full flex-col  bg-gradient-to-r from-amber-950 via-orange-500 to-amber-950 overflow-x-hidden ">
+    <div className="flex w-full flex-col bg-gradient-to-r from-amber-950 via-orange-500 to-amber-950 overflow-x-hidden ">
         <Header />
         <SectionHome />
         <SectionAbout />

@@ -58,7 +58,7 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className=" flex justify-center w-full pt-15 pb-10">
+    <section id="contact" className=" flex justify-center w-full pt-10 pb-10">
       <div className="flex flex-col justify-center px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
@@ -70,7 +70,7 @@ export default function Contact() {
               Entre em Contato
             </motion.h2>
             <motion.p
-              className="max-w-[900px] text-shadow-lg/30 text-shadow-amber-950 text-[#f9f9f9] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed "
+              className="max-w-[900px] text-shadow-lg/30 text-shadow-amber-950 text-[#f9f9f9] sm:text-xl/relaxed md:text-xl/relaxed lg:text-xl/relaxed xl:text-xl/relaxed "
               {...animProps}
               transition={{ duration: 0.5, delay: 0.1 }}>
               Tem algo em mente ou quer apenas falar comigo? Entre em contato!
@@ -89,7 +89,7 @@ export default function Contact() {
                   <Input
                     id="email"
                     type="email"
-                    className="flex h-10 w-full bg-[#f9f9f9]  font-medium text-lg focus-visible:border-transparent focus-visible:ring-2 focus-visible:ring-zinc-800/80 text-zinc-800/90 placeholder:text-zinc-800/80"
+                    className="flex h-10 w-full bg-[#f9f9f9] font-medium text-[14px] md:text-[14px]  focus-visible:border-transparent focus-visible:ring-2 focus-visible:ring-zinc-800/80 text-zinc-800/90 placeholder:text-zinc-800/80"
                     placeholder="Email"
                     {...register("email")}
                   />
@@ -101,7 +101,7 @@ export default function Contact() {
                   <Input
                     id="subject"
                     type="text"
-                    className="flex h-10 w-full bg-[#f9f9f9]  font-medium text-lg focus-visible:border-transparent focus-visible:ring-2 focus-visible:ring-zinc-800/80 text-zinc-800/90 placeholder:text-zinc-800/80"
+                    className="flex h-10 w-full bg-[#f9f9f9] text-[14px] font-medium focus-visible:border-transparent focus-visible:ring-2 focus-visible:ring-zinc-800/80 text-zinc-800/90 placeholder:text-zinc-800/80"
                     placeholder="Assunto"
                     {...register("subject")}
                   />
