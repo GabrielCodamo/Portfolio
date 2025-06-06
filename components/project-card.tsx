@@ -39,7 +39,7 @@ export function ProjectCard({ title, description, tags, imageUrl, demoUrl, githu
         </CardHeader>
         <div className="flex flex-col gap-6 ">
           <CardContent>
-            <div className={imageUrl === 1 ? "flex flex-wrap gap-2 sm:pb-6.5 sm:pt-6 pt-5" : "flex flex-wrap gap-2 sm:pb-6.5 sm:pt-6 lg:pt-0 lg:pb-0"}>
+            <div className={imageUrl === 1 ? "flex flex-wrap gap-2 sm:pb-6.5 sm:pt-6 " : "flex flex-wrap gap-2 sm:pb-6.5 sm:pt-6 lg:pt-0 lg:pb-0"}>
               {
                 tags.map((tag) => (
                   <Badge key={tag} className="bg-[#f9f9f9] text-gray-700 hidden sm:flex" >
