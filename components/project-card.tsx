@@ -35,11 +35,11 @@ export function ProjectCard({ title, description, tags, imageUrl, demoUrl, githu
       <div className="flex flex-col gap-2">
         <CardHeader>
           <CardTitle className="text-[#f9f9f9] font-semibold text-shadow-amber-950 text-shadow-lg/30 flex justify-center sm:justify-start ">{title}</CardTitle>
-          <CardDescription className="text-[#f9f9f9] text-shadow-amber-950 text-shadow-lg/30 font-sans sm:flex hidden" >{description}</CardDescription>
+          <CardDescription className="text-[#f9f9f9] text-shadow-amber-950 text-shadow-lg/30 font-sans" >{description}</CardDescription>
         </CardHeader>
         <div className="flex flex-col gap-6 ">
           <CardContent>
-            <div className={imageUrl === 1 ? "flex flex-wrap gap-2 sm:pb-6.5 sm:pt-6 " : "flex flex-wrap gap-2"}>
+            <div className={imageUrl === 1 ? "flex flex-wrap gap-2 sm:pb-6.5 pt-6 " : "flex flex-wrap gap-2"}>
               {
                  tags.map((tag) => (
                 <Badge key={tag} className="bg-[#f9f9f9] text-gray-700 hidden sm:flex" >

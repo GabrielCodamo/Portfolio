@@ -84,7 +84,7 @@ export default function Projects() {
               ProjectCardData.map((data, index) => (
                 <ProjectCard
                   key={index}
-                  className="hidden sm:flex"
+                  className="hidden sm:flex "
                   title={data.title}
                   description={data.description}
                   tags={data.tags}
@@ -130,7 +130,7 @@ export default function Projects() {
               <SwiperSlide key={index} className="" >
                 <div className="flex justify-center py-3">
                   <ProjectCard
-                    className="flex sm:hidden w-70"
+                    className="flex sm:hidden w-77 h-80"
                     title={data.title}
                     tags={data.tags}
                     description={data.description}
