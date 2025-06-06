@@ -63,7 +63,7 @@ export default function Contact() {
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
             <motion.h2
-              className="text-3xl font-bold tracking-tighter sm:text-5xl text-shadow-amber-950 text-shadow-lg/30"
+              className="text-3xl font-bold tracking-tighter sm:text-5xl  text-shadow-amber-950 text-shadow-lg/30"
               {...animProps}
               transition={{ duration: 0.5, delay: 0.2 }}
             >

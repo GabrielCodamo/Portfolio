@@ -35,14 +35,13 @@ const navItems: NavItem[] = [
   }
 ]
 
-
 export default function Header() {
   const [activeItem, setActiveItem] = useState<string>("Home")
   return (
-    <div className="fixed w-full  ">
-      <header className=" px-4 lg:px-6 h-14 flex items-center justify-center bg-zinc-800 ">
+    <div className=" w-full">
+      <header className="fixed z-50 top-0 left-0 right-0 px-4 lg:px-6 h-14 flex items-center justify-center bg-zinc-800 ">
         <motion.header
-          className="fixed top-0 w-full px-4 lg:px-6 h-14 flex items-center justify-center "
+          className="w-full fixed px-4 lg:px-6 h-14 flex items-center justify-center "
           initial={{ top: -100 }}
           animate={{ top: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
@@ -54,7 +53,7 @@ export default function Header() {
             </Link>
             <Dropdown />
           </div>
-          <nav className="ml-auto h-full hidden sm:flex gap-4 sm:gap-6 items-center justify-center border-orange-500">
+          <nav className=" ml-auto h-full hidden sm:flex gap-4 sm:gap-6 items-center justify-center border-orange-500">
             <div className="flex flex-1 items-center justify-end space-x-2 md:justify-center md:space-x-4">
               {navItems.map((item) => (
                 <Link className={cn(

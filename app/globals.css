@@ -7,6 +7,26 @@ body{
   font-family: var(--font-aleatoria-tint);
 }
 
+.swiper {
+  height: 113%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: flex;
+  object-fit: cover;
+}
+
+
+
 @theme inline {
  
   /* caso queria usar font no tailwind */
