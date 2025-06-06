@@ -84,7 +84,7 @@ export default function Projects() {
               ProjectCardData.map((data, index) => (
                 <ProjectCard
                   key={index}
-                  className={`hidden sm:flex w-130  lg:w-full`}
+                  className={`hidden sm:flex w-130 lg:w-full`}
                   title={data.title}
                   description={data.description}
                   tags={data.tags}
