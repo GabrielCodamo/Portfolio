@@ -128,7 +128,7 @@ export default function Projects() {
               className="mySwiper "
             >{ProjectCardData.map((data, index) => (
               <SwiperSlide key={index} className="" >
-                <div className="grid grid-cols-1 py-3">
+                <div className="flex justify-center py-3">
                   <ProjectCard
                     className="flex sm:hidden w-70"
                     title={data.title}
