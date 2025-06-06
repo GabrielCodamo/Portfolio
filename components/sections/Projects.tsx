@@ -95,7 +95,7 @@ export default function Projects() {
               ))
             }
           </motion.div>
-          <div className="flex w-full justify-center sm:hidden ">
+          <div className="flex w-full justify-center sm:hidden mb-10">
             {/* <CarouselMobile>
               {ProjectCardData.map((data, index) => (
                 <CarouselItem key={index} className="">
@@ -130,7 +130,7 @@ export default function Projects() {
               <SwiperSlide key={index} className="" >
                 <div className="flex justify-center py-3">
                   <ProjectCard
-                    className="flex sm:hidden w-77 h-80"
+                    className="flex sm:hidden w-77 h-80 mt-5"
                     title={data.title}
                     tags={data.tags}
                     description={data.description}
