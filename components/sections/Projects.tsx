@@ -72,7 +72,7 @@ export default function Projects() {
             <Separator className="my-4" />
           </div>
         </div>
-        <div className=" w-full max-w-5xl grid grid-cols-1 sm:py-3 ">
+        <div className=" w-full max-w-5xl lg:grid lg:grid-cols-1 flex justify-center sm:py-3 ">
           <motion.div
             className="grid grid-cols-1 lg:grid-cols-3  gap-6"
             initial={{ opacity: 0, y: 100, scale: 0.5 }}
@@ -84,7 +84,7 @@ export default function Projects() {
               ProjectCardData.map((data, index) => (
                 <ProjectCard
                   key={index}
-                  className="hidden sm:flex "
+                  className={`hidden sm:flex w-130  lg:w-full`}
                   title={data.title}
                   description={data.description}
                   tags={data.tags}
@@ -95,7 +95,7 @@ export default function Projects() {
               ))
             }
           </motion.div>
-          <div className="flex w-full justify-center sm:hidden mb-4">
+          <div className="flex w-full justify-center sm:hidden mb-6">
             {/* <CarouselMobile>
               {ProjectCardData.map((data, index) => (
                 <CarouselItem key={index} className="">

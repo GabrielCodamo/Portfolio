@@ -23,11 +23,11 @@ interface ProjectCardProps {
 export function ProjectCard({ title, description, tags, imageUrl, demoUrl, githubUrl, className }: ProjectCardProps) {
   return (
     <Card className={twMerge(" overflow-hidden bg-transparent inset-shadow-sm inset-shadow-zinc-800 shadow-xl/30  border-transparent pt-2", className)}>
-      <div className=" w-full overflow-hidden rounded-b-md justify-center flex">
+      <div className=" w-full overflow-hidden rounded-b-md justify-center flex ">
         <Image
           src={`/Projeto${imageUrl}.png`}
           alt={title}
-          className="flex px-2 sm:px-0 h-50 bg-center w-70 sm:rounded-2xl sm:h-50 sm:w-77 "
+          className="flex px-2 sm:w-125 sm:h-60 sm:px-0 h-50 bg-center w-70 sm:rounded-2xl lg:h-50 lg:w-77 "
           height={600}
           width={600}
         />
@@ -39,7 +39,7 @@ export function ProjectCard({ title, description, tags, imageUrl, demoUrl, githu
         </CardHeader>
         <div className="flex flex-col gap-6 ">
           <CardContent>
-            <div className={imageUrl === 1 ? "flex flex-wrap gap-2 sm:pb-6.5 sm:pt-6 pt-3" : "flex flex-wrap gap-2"}>
+            <div className={imageUrl === 1 ? "flex flex-wrap gap-2 sm:pb-6.5 sm:pt-6 pt-3" : "flex flex-wrap gap-2 sm:pb-6.5 sm:pt-6"}>
               {
                 tags.map((tag) => (
                   <Badge key={tag} className="bg-[#f9f9f9] text-gray-700 hidden sm:flex" >
