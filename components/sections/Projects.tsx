@@ -74,7 +74,7 @@ export default function Projects() {
         </div>
         <div className=" w-full max-w-5xl grid grid-cols-1 sm:py-3 ">
           <motion.div
-            className="grid grid-cols-3 gap-6"
+            className="grid xl:grid-cols-3 sm:grid-cols-2 gap-6"
             initial={{ opacity: 0, y: 100, scale: 0.5 }}
             whileInView={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 100, scale: 0.5 }}
@@ -95,7 +95,7 @@ export default function Projects() {
               ))
             }
           </motion.div>
-          <div className="flex w-full justify-center sm:hidden mb-10">
+          <div className="flex w-full justify-center sm:hidden mb-5">
             {/* <CarouselMobile>
               {ProjectCardData.map((data, index) => (
                 <CarouselItem key={index} className="">
@@ -130,7 +130,7 @@ export default function Projects() {
               <SwiperSlide key={index} className="" >
                 <div className="flex justify-center py-3">
                   <ProjectCard
-                    className="flex sm:hidden w-77 h-80 mt-5"
+                    className="flex sm:hidden w-77 h-90 sm:h-full mt-5"
                     title={data.title}
                     tags={data.tags}
                     description={data.description}
