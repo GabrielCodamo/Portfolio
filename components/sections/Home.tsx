@@ -67,19 +67,19 @@ export default function HomePage() {
               </div>
               <div className="flex gap-4 mt-4 lg:ml-1">
                 <Link href="https://github.com/GabrielCodamo" target="_blank" rel="noreferrer">
-                  <Button className="cursor-pointer rounded-full hover:bg-amber-600 h-10 w-10 hover:text-[#f9f9f9] bg-transparent border-1  hover:border-1 hover:border-orange-800" variant="ghost" size="icon">
+                  <Button className="cursor-pointer rounded-full w-10.5 h-10.5 sm:w-9.5 sm:h-9.5 hover:bg-amber-600 hover:text-[#f9f9f9] bg-transparent border-1  hover:border-1 hover:border-orange-800" variant="ghost" size="icon">
                     <FiGithub className="w-5 h-5" />
                     <span className="sr-only">GitHub</span>
                   </Button>
                 </Link>
                 <Link href="https://www.linkedin.com/in/gabriel-de-paula-274a0421b/" target="_blank" rel="noreferrer">
-                  <Button className="cursor-pointer rounded-full hover:bg-amber-600 bg-transparent border-1 w-10 h-10 hover:border-1 hover:border-orange-800 hover:text-[#f9f9f9]" size="icon">
+                  <Button className="cursor-pointer rounded-full w-10.5 h-10.5 sm:w-9.5 sm:h-9.5 hover:bg-amber-600 bg-transparent border-1  hover:border-1 hover:border-orange-800 hover:text-[#f9f9f9]" size="icon">
                     <SlSocialLinkedin className="w-5 h-5" />
                     <span className="sr-only">LinkedIn</span>
                   </Button>
                 </Link>
                 <Link href="https://mail.google.com/mail/u/0/?ogbl#inbox?compose=new" target="_blank" rel="noreferrer">
-                  <Button className="cursor-pointer rounded-full hover:bg-amber-600 w-10 h-10 bg-transparent border-1  hover:border-1 hover:border-orange-800 hover:text-[#f9f9f9]" variant="ghost" size="icon">
+                  <Button className="cursor-pointer rounded-full hover:bg-amber-600 w-10.5 h-10.5 sm:w-9.5 sm:h-9.5  bg-transparent border-1  hover:border-1 hover:border-orange-800 hover:text-[#f9f9f9]" variant="ghost" size="icon">
                     <CiMail className="w-5 h-5" />
                     <span className="sr-only">Email</span>
                   </Button>
