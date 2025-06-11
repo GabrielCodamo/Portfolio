@@ -27,7 +27,7 @@ export function ProjectCard({ title, description, tags, imageUrl, demoUrl, githu
         <Image
           src={`/Projeto${imageUrl}.png`}
           alt={title}
-          className="flex px-2 sm:w-120 sm:h-73 sm:px-0 h-50 w-84 sm:rounded-2xl lg:h-50 lg:w-77 "
+          className="flex px-2 sm:w-120 sm:h-73 sm:px-0 h-40 w-77 sm:rounded-2xl lg:h-50 lg:w-77 "
           height={600}
           width={600}
         />
@@ -39,7 +39,7 @@ export function ProjectCard({ title, description, tags, imageUrl, demoUrl, githu
         </CardHeader>
         <div className="flex flex-col gap-6 ">
           <CardContent>
-            <div className={imageUrl === 1 ? "flex flex-wrap gap-2 sm:pb-6.5 sm:pt-6 " : "flex flex-wrap gap-2 sm:pb-6.5 sm:pt-6 lg:pt-0 lg:pb-0"}>
+            <div className={imageUrl === 1 ? "flex flex-wrap gap-2 sm:pb-6.5 sm:pt-6 pt-11" : "flex flex-wrap gap-2 pt-6 sm:pb-6.5 sm:pt-6 lg:pt-0 lg:pb-0 "}>
               {
                 tags.map((tag) => (
                   <Badge key={tag} className="bg-[#f9f9f9] text-gray-700 hidden sm:flex" >
