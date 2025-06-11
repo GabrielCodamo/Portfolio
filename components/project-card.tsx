@@ -27,7 +27,7 @@ export function ProjectCard({ title, description, tags, imageUrl, demoUrl, githu
         <Image
           src={`/Projeto${imageUrl}.png`}
           alt={title}
-          className="flex px-2 sm:w-120 sm:h-73 sm:px-0 h-50  w-70 sm:rounded-2xl lg:h-50 lg:w-77 "
+          className="flex px-2 sm:w-120 sm:h-73 sm:px-0 h-50 w-84 sm:rounded-2xl lg:h-50 lg:w-77 "
           height={600}
           width={600}
         />

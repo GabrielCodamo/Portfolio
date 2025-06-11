@@ -130,7 +130,7 @@ export default function Projects() {
               <SwiperSlide key={index} className="" >
                 <div className="flex justify-center py-3">
                   <ProjectCard
-                    className="flex sm:hidden w-77 h-90 sm:h-full mt-5"
+                    className="flex sm:hidden w-85 h-90 sm:h-full mt-5"
                     title={data.title}
                     tags={data.tags}
                     description={data.description}
