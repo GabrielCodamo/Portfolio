@@ -23,7 +23,7 @@ interface ProjectCardProps {
 export function ProjectCard({ title, description, tags, imageUrl, demoUrl, githubUrl, className }: ProjectCardProps) {
   return (
     <Card className={twMerge(" overflow-hidden bg-transparent inset-shadow-sm inset-shadow-zinc-800 shadow-xl/30  border-transparent pt-2", className)}>
-      <div className=" w-full h-50 rounded-b-md justify-center flex ">
+      <div className=" w-full h-50 sm:h-full rounded-b-md justify-center flex ">
         <Image
           src={`/Projeto${imageUrl}.png`}
           alt={title}
