@@ -45,7 +45,7 @@ export default function About() {
               whileInView={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: -100 }}
               transition={{ duration: 0.5 }}>
-              Sou um desenvolvedor Web em formação apesar de não ter experiência formal como desenvolvedor tenho focado em estudar, aprimorar e aplicar meus conhecimentos na prática,com a confecção de mini projetos pessoais que auxiliam no meu desenvolvimento responsivo, otimização de performance e melhores práticas de UX/UI.
+              Sou um desenvolvedor Web em formação apesar de não ter experiência formal como desenvolvedor tenho focado em estudar, aprimorar e aplicar meus conhecimentos na prática com a confecção de mini projetos pessoais que auxiliam no meu desenvolvimento responsivo, otimização de performance e melhores práticas de UX/UI.
             </motion.p>
           </div>
           <div className="grid sm:grid-cols-3 gap-4">
