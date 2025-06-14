@@ -35,7 +35,7 @@ export default function About() {
           transition={{ duration: 0.5 }}>
           <Image src={perfilSobremim}
             alt="imagem da seção sobre mim"
-            className="w-70 h-70 shadow-xl/30  border border-amber-950 rounded-full" />
+            className="w-77 h-77 shadow-xl/30  border border-amber-950 rounded-full" />
         </motion.div>
         <div className="flex flex-col items-center justify-end w-[600px] space-y-4 mt-10">
           <div className="flex sm:inline sm:w-full w-74">
@@ -45,9 +45,9 @@ export default function About() {
               whileInView={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: -100 }}
               transition={{ duration: 0.5 }}>
-              Sou um estudante que está começando como desenvolvedor Web, ainda sem experiência na área como desenvolvedor jr apenas criando mini projetos pessoais. Gosto de desenvolver aplicações além de estar por dentro das tecnologias e apredendo novas funcionalidades.
+              Sou um desenvolvedor Web em formação apesar de não ter experiência formal como desenvolvedor tenho focado em estudar, aprimorar e aplicar meus conhecimentos na prática,com a confecção de mini projetos pessoais que auxiliam no meu desenvolvimento responsivo, otimização de performance e melhores práticas de UX/UI.
             </motion.p>
-         </div>
+          </div>
           <div className="grid sm:grid-cols-3 gap-4">
             <motion.div
               initial={{ opacity: 0, x: 100 }}
