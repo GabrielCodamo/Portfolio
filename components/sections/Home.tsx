@@ -15,7 +15,7 @@ import { CiMail } from "react-icons/ci";
 
 export default function HomePage() {
   return (
-    <section className=" flex flex-col lg:flex-row justify-center lg:pt-47 pt-25 pb-35 w-full ">
+    <section className=" flex flex-col lg:flex-row justify-center py-40 lg:py-60 w-full ">
       <motion.div
         initial={{ opacity: 0, scale: 0.5 }}
         whileInView={{ opacity: 1, y: 0, scale: 1 }}

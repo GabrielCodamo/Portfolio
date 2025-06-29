@@ -16,7 +16,7 @@ import { Separator } from "@/components/ui/separator";
 
 export default function Skills() {
   return (
-    <section id="skills" className="w-full flex justify-center pt-15 pb-20">
+    <section id="skills" className="w-full flex justify-center pt-27 lg:pt-27 lg:pb-40">
       <div className="container ">
         <div className="flex flex-col items-center justify-center text-center">
           <div className="space-y-2 flex justify-center items-center">

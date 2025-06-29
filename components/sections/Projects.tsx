@@ -54,7 +54,7 @@ const ProjectCardData: ProjectCardProps[] = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-15 ">
+    <section id="projects" className="pt-27 pb-40">
       <div className="flex flex-col justify-center items-center">
         <div className="flex items-center justify-center text-center">
           <div className="w-80">

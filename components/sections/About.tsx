@@ -10,7 +10,7 @@ import { Separator } from "@/components/ui/separator";
 
 export default function About() {
   return (
-    <section id="about" className="w-full pt-15 pb-40">
+    <section id="about" className="w-full pt-30 pb-73 lg:pt-27 lg:pb-45">
       <div className="flex items-center justify-center text-center ">
         <div className="w-80">
           <Separator className="my-4" />
