@@ -28,7 +28,7 @@ export default function RootLayout({
       dark:[&::-webkit-scrollbar-track]:bg-zinc-800
       dark:[&::-webkit-scrollbar-thumb]:bg-orange-600">
       <body
-        className={`${bungeeTint.variable}antialiased `}
+        className={`${bungeeTint.variable}antialiased ` } suppressHydrationWarning
       >
         {children}
         <Toaster />

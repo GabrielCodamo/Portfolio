@@ -35,7 +35,7 @@ export default function About() {
           transition={{ duration: 0.5 }}>
           <Image src={perfilSobremim}
             alt="imagem da seção sobre mim"
-            className="w-77 h-77 shadow-xl/30  border border-amber-950 rounded-full" />
+            className="w-77 h-77 shadow-xl/30  border border-white rounded-full" />
         </motion.div>
         <div className="flex flex-col items-center justify-end w-[600px] space-y-4 mt-10">
           <div className="flex sm:inline sm:w-full w-74">

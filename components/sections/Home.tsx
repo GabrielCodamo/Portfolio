@@ -1,7 +1,7 @@
 "use client"
 import * as motion from "motion/react-client"
 
-import imagemportifolio from "/assets/Perfil.png"
+import imagemportifolio from "/assets/teste003.jpeg"
 
 import Image from "next/image";
 import Link from "next/link";
@@ -27,7 +27,7 @@ export default function HomePage() {
           <Image
             src={imagemportifolio}
             alt="Profile"
-            className="inset-shadow-[#f9f9f9] bg-[#f9f9f9b0] inset-shadow-sm shadow-xl/30 shadow-[#f9f9f9] rounded-full w-60 h-60 "
+            className="shadow-xl/20 shadow-[#000000] border rounded-full w-60 h-60 "
             priority
           />
         </div>
@@ -99,7 +99,7 @@ export default function HomePage() {
             <Image
               src={imagemportifolio}
               alt="Profile"
-              className="inset-shadow-[#f9f9f9] bg-[#f9f9f9b0] inset-shadow-sm shadow-xl/30 shadow-[#f9f9f9] rounded-full w-75 h-75 "
+              className="shadow-xl/20 shadow-[#000000] border rounded-full w-full h-full "
               priority
             />
           </div>
