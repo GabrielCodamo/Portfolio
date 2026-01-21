@@ -6,7 +6,7 @@ import { FaCss3Alt, FaHtml5, FaReact } from "react-icons/fa";
 
 import { motion } from "framer-motion";
 
-import typescript from "/assets/typescript.svg"
+import typescript from "../../assets/typescript.svg"
 
 // import Animation from "@/components/animations/animation-card";
 

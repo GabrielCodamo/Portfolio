@@ -4,7 +4,7 @@ import { PiStudentBold } from "react-icons/pi";
 import { LuFolderCode } from "react-icons/lu";
 import { FaCode } from "react-icons/fa6";
 import { motion } from "framer-motion";
-import perfilSobremim from "/assets/PerfilAbout.png"
+import perfilSobremim from "../../assets/PerfilAbout.png"
 import Image from "next/image";
 import { Separator } from "@/components/ui/separator";
 
@@ -68,8 +68,7 @@ export default function About() {
               <Card className="flex py-4 px-5 border-2 bg-transparent shadow-xl/20 border-transparent">
                 <PiStudentBold className="w-8 h-8 text-[#f9f9f9]" />
                 <span className="font-extrabold text-[#f9f9f9] text-shadow-amber-950 text-shadow-lg/30">Educação</span>
-                <p className="text-[#f9f9f9] font-bold text-sm text-shadow-amber-950 text-shadow-lg/30">Bacharelado em Sistemas de
-                  Informação – Em fase final</p>
+                <p className="text-[#f9f9f9] font-bold text-sm text-shadow-amber-950 text-shadow-lg/30">Ensino Superior Em Fase Final</p>
               </Card>
             </motion.div>
             <motion.div

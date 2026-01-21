@@ -1,7 +1,7 @@
 "use client"
 import * as motion from "motion/react-client"
 
-import imagemportifolio from "/assets/teste003.jpeg"
+import imagemportifolio from "../../assets/imagemportifolio.jpeg"
 
 import Image from "next/image";
 import Link from "next/link";
