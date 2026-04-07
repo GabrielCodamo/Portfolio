@@ -43,8 +43,8 @@ const ProjectCardData: ProjectCardProps[] = [
     imageUrl: 2
   },
   {
-    title: "Lista de Tarefas Com banco de dados",
-    description: "Uma aplicação de lista de tarefas com integração a um banco de dados.",
+    title: "Lista de Tarefas ",
+    description: "Uma aplicação de lista de tarefas com um banco de dados.",
     tags: ["React", "Next.js", "Tailwind", "Shadcn-UI", "Prisma", "Zod", "PostegreSql"],
     imageUrl: 3,
     demoUrl: "https://todolist-with-database.vercel.app/",

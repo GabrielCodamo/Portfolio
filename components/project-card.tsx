@@ -34,7 +34,10 @@ export function ProjectCard({ title, description, tags, imageUrl, demoUrl, githu
       </div>
       <div className="flex flex-col gap-2">
         <CardHeader>
-          <CardTitle className="text-[#f9f9f9] font-semibold text-shadow-amber-950 text-shadow-lg/30 flex justify-center sm:justify-start ">{title}</CardTitle>
+          <CardTitle className={`text-[#f9f9f9] font-semibold text-shadow-amber-950 text-shadow-lg/30 flex justify-center sm:justify-start
+          ${imageUrl === 5 && "pt-1"}`
+
+          }>{title}</CardTitle>
           <CardDescription className="text-[#f9f9f9] text-shadow-amber-950 text-shadow-lg/30 font-sans" >{description}</CardDescription>
         </CardHeader>
         <div className="flex flex-col gap-6 ">
