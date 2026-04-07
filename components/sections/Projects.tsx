@@ -43,12 +43,12 @@ const ProjectCardData: ProjectCardProps[] = [
     imageUrl: 2
   },
   {
-    title: "Portfolio Website",
-    description: "Meu portfolio criado com next.js e tailwindcss.",
-    tags: ["React", "Next.js", "Tailwind", "Shadcn-UI", "Framer Motion", "Zod", "React Hook Form"],
+    title: "Lista de Tarefas Com banco de dados",
+    description: "Uma aplicação de lista de tarefas com integração a um banco de dados.",
+    tags: ["React", "Next.js", "Tailwind", "Shadcn-UI", "Prisma", "Zod", "React Hook Form", "PostegreSql"],
     imageUrl: 3,
-    demoUrl: "#",
-    githubUrl: "https://github.com/GabrielCodamo/Portfolio"
+    demoUrl: "https://todolist-with-database.vercel.app/",
+    githubUrl: "https://github.com/GabrielCodamo/todolist-with-database"
   }
 ]
 
