@@ -27,12 +27,12 @@ interface ProjectCardProps {
 
 const ProjectCardData: ProjectCardProps[] = [
   {
-    title: "Lista de Tarefas",
-    description: "Uma aplicação simples de lista de tarefas.",
-    tags: ["HTML", "CSS", "JavaScript"],
-    demoUrl: "https://lista-de-tarefas-gabrielcodamos-projects.vercel.app/",
-    githubUrl: "https://github.com/GabrielCodamo/Lista-de-Tarefas",
-    imageUrl: 1,
+    title: "Lista de Compras",
+    description: "Uma aplicação simples de lista de compras.",
+    tags: ["React", "Tailwind", "Vite", "Shadcn-UI"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/GabrielCodamo/mp-lista-de-compras-em-react",
+    imageUrl: 5,
   },
   {
     title: "Tela de Login e Cadastro",
@@ -45,7 +45,7 @@ const ProjectCardData: ProjectCardProps[] = [
   {
     title: "Lista de Tarefas Com banco de dados",
     description: "Uma aplicação de lista de tarefas com integração a um banco de dados.",
-    tags: ["React", "Next.js", "Tailwind", "Shadcn-UI", "Prisma", "Zod", "React Hook Form", "PostegreSql"],
+    tags: ["React", "Next.js", "Tailwind", "Shadcn-UI", "Prisma", "Zod", "PostegreSql"],
     imageUrl: 3,
     demoUrl: "https://todolist-with-database.vercel.app/",
     githubUrl: "https://github.com/GabrielCodamo/todolist-with-database"

@@ -39,7 +39,7 @@ export function ProjectCard({ title, description, tags, imageUrl, demoUrl, githu
         </CardHeader>
         <div className="flex flex-col gap-6 ">
           <CardContent>
-            <div className={imageUrl === 1 ? "flex flex-wrap gap-2 sm:pb-6.5 sm:pt-6 pt-3" : "flex flex-wrap gap-2 sm:pb-6.5 sm:pt-6 lg:pt-0 lg:pb-0 "}>
+            <div className={imageUrl === 5 ? "flex flex-wrap gap-2 sm:pb-6.5 sm:pt-6 pt-3" : "flex flex-wrap gap-2 sm:pb-6.5 sm:pt-6 lg:pt-0 lg:pb-0 "}>
               {
                 tags.map((tag) => (
                   <Badge key={tag} className="bg-[#f9f9f9] text-gray-700 hidden sm:flex" >
@@ -48,20 +48,27 @@ export function ProjectCard({ title, description, tags, imageUrl, demoUrl, githu
                 ))}
             </div>
           </CardContent>
-            <CardFooter className="flex justify-between">
-              <Link href={demoUrl} rel="noopener noreferrer">
-                <Button className="cursor-pointer text-gray-700 hover:border-orange-600 hover:text-[#f9f9f9] hover:bg-amber-600" variant="outline" size="sm">
-                  <ExternalLink className="mr-2 h-4 w-4" />
-                  Demo
-                </Button>
-              </Link>
-              <Link href={githubUrl} rel="noopener noreferrer">
-                <Button className="cursor-pointer text-gray-700 hover:border-orange-600 hover:text-[#f9f9f9] hover:bg-amber-600" variant="outline" size="sm">
-                  <FiGithub className="mr-2 h-4 w-4" />
-                  Code
-                </Button>
-              </Link>
-            </CardFooter>
+          <CardFooter className={
+            imageUrl === 5
+              ? "flex justify-center"
+              : "flex justify-between"}>
+            <Link href={demoUrl} rel="noopener noreferrer ">
+              <Button className={
+                imageUrl === 5
+                  ? "hidden"
+                  : `cursor-pointer text-gray-700 hover:border-orange-600 hover:text-[#f9f9f9] hover:bg-amber-600`
+              } variant="outline" size="sm">
+                <ExternalLink className="mr-2 h-4 w-4" />
+                Demo
+              </Button>
+            </Link>
+            <Link href={githubUrl} rel="noopener noreferrer">
+              <Button className="cursor-pointer text-gray-700 hover:border-orange-600 hover:text-[#f9f9f9] hover:bg-amber-600" variant="outline" size="sm">
+                <FiGithub className="mr-2 h-4 w-4" />
+                Code
+              </Button>
+            </Link>
+          </CardFooter>
         </div>
       </div>
     </Card>
