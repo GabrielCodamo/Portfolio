@@ -72,7 +72,7 @@ export default function HomePage() {
                     <span className="sr-only">GitHub</span>
                   </Button>
                 </Link>
-                <Link href="https://www.linkedin.com/in/gabriel-de-paula-274a0421b/" target="_blank" rel="noreferrer">
+                <Link href="https://www.linkedin.com/in/gabriel-de-paula-vieiralves-274a0421b/" target="_blank" rel="noreferrer">
                   <Button className="cursor-pointer rounded-full w-10.5 h-10.5 sm:w-9.5 sm:h-9.5 hover:bg-amber-600 bg-transparent border-1  hover:border-1 hover:border-orange-800 hover:text-[#f9f9f9]" size="icon">
                     <SlSocialLinkedin className="w-5 h-5" />
                     <span className="sr-only">LinkedIn</span>
