@@ -55,7 +55,7 @@ export function ProjectCard({ title, description, tags, imageUrl, demoUrl, githu
             imageUrl === 5
               ? "flex justify-center"
               : "flex justify-between"}>
-            <Link href={demoUrl} rel="noopener noreferrer ">
+            <Link href={demoUrl} rel="noopener noreferrer" target="_blank">
               <Button className={
                 imageUrl === 5
                   ? "hidden"
@@ -65,7 +65,7 @@ export function ProjectCard({ title, description, tags, imageUrl, demoUrl, githu
                 Demo
               </Button>
             </Link>
-            <Link href={githubUrl} rel="noopener noreferrer">
+            <Link href={githubUrl} rel="noopener noreferrer" target="_blank">
               <Button className="cursor-pointer text-gray-700 hover:border-orange-600 hover:text-[#f9f9f9] hover:bg-amber-600" variant="outline" size="sm">
                 <FiGithub className="mr-2 h-4 w-4" />
                 Code
