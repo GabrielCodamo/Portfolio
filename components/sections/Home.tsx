@@ -99,7 +99,7 @@ export default function HomePage() {
             <Image
               src={imagemportifolio}
               alt="Profile"
-              className="shadow-xl/20 shadow-[-5px_14px_23px_3px_rgba(0,_0,_0,_0.4)] border border-[#4F1D00] rounded-full w-full h-full "
+              className=" shadow-[-7px_5px_26px_-6px_rgba(0,_0,_0,_0.4)] border border-white rounded-full w-full h-full "
               priority
             />
           </div>
