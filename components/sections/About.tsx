@@ -4,7 +4,7 @@ import { PiStudentBold } from "react-icons/pi";
 import { LuFolderCode } from "react-icons/lu";
 import { FaCode } from "react-icons/fa6";
 import { motion } from "framer-motion";
-import perfilSobremim from "../../assets/PerfilAbout.png"
+import imagemportifolio from "../../assets/imagemportifolio.jpeg"
 import Image from "next/image";
 import { Separator } from "@/components/ui/separator";
 
@@ -27,15 +27,22 @@ export default function About() {
           <Separator className="my-4" />
         </div>
       </div>
-      <div className="flex w-full justify-center space-x-8 items-end ">
-        <motion.div className="lg:flex hidden "
+      <div className="flex w-full justify-center space-x-9 items-start">
+        <motion.div className="lg:flex hidden justify-center items-center mt-10"
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: 100 }}
           transition={{ duration: 0.5 }}>
-          <Image src={perfilSobremim}
+          {/* <Image src={perfilSobremim}
             alt="imagem da seção sobre mim"
-            className="w-77 h-77 shadow-xl/30  border border-white rounded-full" />
+            className="w-77 h-77 shadow-xl/30  border border-white rounded-full" /> */}
+          <Image
+            src={imagemportifolio}
+            alt="Imagem da seção sobre mim"
+            priority
+            quality={100}
+            className="w-79 h-79 shadow-[3px_14px_23px_3px_rgba(0,_0,_0,_0.4)] border border-[#4F1D00] rounded-full"
+          />
         </motion.div>
         <div className="flex flex-col items-center justify-end w-[600px] space-y-4 mt-10">
           <div className="flex sm:inline sm:w-full w-74">
